@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue_black">
+
+        <TextView
+            android:id="@+id/venue_details_header_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/contentMarginSmallHorizontal"
+            android:layout_marginRight="@dimen/contentMarginSmallHorizontal"
+            android:gravity="center"
+            android:textSize="@dimen/textSizeLarge"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/contentMarginMediumVertical"
+            android:paddingBottom="@dimen/contentMarginMediumVertical"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textAlignment="center"
+            android:text="Venue Details"
+            android:background="@null"
+        />
+
+        <GridView
+            android:id="@+id/venue_details_grid_view"
+            style="@style/VenueDetailsGridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/venue_details_header_label"
+            android:layout_marginTop="4dp"
+            android:columnWidth="@dimen/image_thumbnail_size"
+            android:horizontalSpacing="0dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="spacingWidthUniform"
+            android:verticalSpacing="@dimen/image_thumbnail_spacing"
+        />
+
+    </RelativeLayout>
+
+</FrameLayout>

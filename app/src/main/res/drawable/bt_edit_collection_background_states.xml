@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/blue" />
+
+            <padding
+                android:left="@dimen/collection_details_edit_button_padding"
+                android:top="@dimen/collection_details_edit_button_padding"
+                android:right="@dimen/collection_details_edit_button_padding"
+                android:bottom="@dimen/collection_details_edit_button_padding"
+            />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/grey3" />
+
+            <padding
+                android:left="@dimen/collection_details_edit_button_padding"
+                android:top="@dimen/collection_details_edit_button_padding"
+                android:right="@dimen/collection_details_edit_button_padding"
+                android:bottom="@dimen/collection_details_edit_button_padding"
+            />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/collection_details_edit_button_enabled" />
+
+            <padding
+                android:left="@dimen/collection_details_edit_button_padding"
+                android:top="@dimen/collection_details_edit_button_padding"
+                android:right="@dimen/collection_details_edit_button_padding"
+                android:bottom="@dimen/collection_details_edit_button_padding"
+            />
+        </shape>
+    </item>
+</selector>

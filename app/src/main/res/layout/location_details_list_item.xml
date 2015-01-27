@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/venue_thumbnail_image_width"
+    android:background="?attr/colorBackgroundView">
+
+    <ImageView
+        android:id="@+id/place_thumbnail_image"
+        android:layout_width="@dimen/venue_thumbnail_image_width"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:clickable="false"
+        android:src="@drawable/location_image_placeholder"
+        android:scaleType="fitXY"
+        android:background="@null"
+    />
+
+    <RelativeLayout
+        android:id="@+id/location_details_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/contentPaddingLargeVertical"
+        android:background="@null">
+
+        <ImageView
+            android:id="@+id/place_category_icon"
+            android:layout_width="@dimen/venue_category_icon_size"
+            android:layout_height="@dimen/venue_category_icon_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/contentMarginMediumVertical"
+            android:layout_marginRight="@dimen/contentMarginLargeHorizontal"
+            android:contentDescription="@null"
+            android:visibility="visible"
+            android:src="@drawable/ic_marker"
+            android:scaleType="fitXY"
+            android:background="@null"
+        />
+
+        <TextView
+            style="@style/LocationDetailsVenueDistance"
+            android:id="@+id/place_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/contentMarginMediumVertical"
+            android:layout_marginLeft="@dimen/contentMarginMediumHorizontal"
+            android:layout_below="@id/place_category_icon"
+            android:layout_alignEnd="@id/place_category_icon"
+            android:minWidth="24dp"
+            android:background="@null"
+            android:visibility="gone"
+        />
+
+        <TextView
+            style="?attr/textStyleLarge"
+            android:id="@+id/place_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/contentMarginLargeHorizontal"
+            android:layout_marginTop="@dimen/contentMarginSmallVertical"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="@dimen/contentMarginSmallHorizontal"
+            android:layout_toLeftOf="@id/place_category_icon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="?attr/colorForeground2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:background="@null"
+        />
+
+        <TextView
+            style="?attr/textStyleExtraSmall"
+            android:id="@+id/place_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/contentMarginSmallVertical"
+            android:paddingTop="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_below="@id/place_name"
+            android:layout_alignLeft="@id/place_name"
+            android:textColor="?attr/colorTextSubtitle"
+            android:background="@null"
+        />
+
+        <TextView
+            style="?attr/textStyleExtraSmall"
+            android:id="@+id/place_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@id/place_category"
+            android:layout_alignLeft="@id/place_name"
+            android:layout_toLeftOf="@id/place_category_icon"
+            android:paddingBottom="@dimen/contentPaddingSmallVertical"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:background="@null"
+        />
+
+        <TextView
+            android:id="@+id/save_venue_text_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="@dimen/textSizeSmall"
+            android:textColor="@color/bt_light_blue_text_states"
+            android:background="@null"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>

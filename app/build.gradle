@@ -1,0 +1,57 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    productFlavors {
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    // Google Android Libs
+    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.android.support:support-annotations:20.0.0'
+    // 3rd-party Libs
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.google.guava:guava:18.0'
+    compile(
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.4.0'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.4.0'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.4.0']
+    )
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    // CrowdScout API Models
+    compile files('libs/crowd-scout-models.jar')
+}

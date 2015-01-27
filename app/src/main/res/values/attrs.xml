@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The attributes defined here make up custom theme properties.
+
+     For common theme attributes, see core/res/res/values/attrs.xml
+     in Android's source code (frameworks/base).
+ -->
+    <declare-styleable name="AppTheme">
+
+        <!-- Text color for buttons. Often a color state list. -->
+        <attr name="buttonTextColor" format="color|reference" />
+
+        <!-- Default style for buttons. -->
+        <attr name="buttonStyle" format="reference" />
+
+        <!-- Style for inverted color buttons. -->
+        <attr name="buttonStyleInverse" format="reference" />
+
+        <!-- Default text color. Can also be a color state list. -->
+        <attr name="colorText" format="color|reference" />
+
+        <!-- Default text color for inverted background. -->
+        <attr name="colorTextInverse" format="color|reference" />
+        <!-- Text color for subtitles in e.g. list items. -->
+
+        <attr name="colorTextSubtitle" format="color|reference" />
+
+        <!-- Inverted text color for subtitles in e.g. list items. -->
+        <attr name="colorTextSubtitleInverse" format="color|reference" />
+
+        <!-- Default background color -->
+        <attr name="colorBackground" format="color|reference" />
+
+        <!-- Inverse background color. -->
+        <attr name="colorBackgroundInverse" format="color|reference" />
+
+        <!-- Default background color of a View on a page.  -->
+        <attr name="colorBackgroundView" format="color|reference" />
+
+        <!-- Background color of an active item, i.e. not the page.  -->
+        <attr name="colorBackgroundViewInverse" format="color|reference" />
+
+        <!-- Accent color used to highlight items throughout the UI. -->
+        <attr name="colorPrimaryAccent1" format="color|reference" />
+
+        <!-- Accent color used to highlight items throughout the UI. -->
+        <attr name="colorPrimaryAccent2" format="color|reference" />
+
+        <!-- Accent color for inverse theme, used to highlight items throughout the UI. -->
+        <attr name="colorPrimaryAccent1Inverse" format="color|reference" />
+
+        <!-- Accent color for inverse theme, used to highlight items throughout the UI. -->
+        <attr name="colorPrimaryAccent2Inverse" format="color|reference" />
+
+        <!-- Default color for foreground objects, like text, typically with very high contrast.  -->
+        <attr name="colorForeground" format="color|reference" />
+
+        <!-- Alternative foreground color with a high contrast. -->
+        <attr name="colorForeground2" format="color|reference" />
+
+        <!-- Alternative foreground color with a medium contrast. -->
+        <attr name="colorForeground3" format="color|reference" />
+
+        <!-- Alternative foreground color with a low contrast. -->
+        <attr name="colorForeground4" format="color|reference" />
+
+        <!-- Alternative foreground color with a very low contrast. -->
+        <attr name="colorForeground5" format="color|reference" />
+
+        <!-- Inverse color for foreground objects, like text, typically with very high contrast.  -->
+        <attr name="colorForegroundInverse" format="color|reference" />
+
+        <!-- Alternative foreground color for inverse theme, with a high contrast. -->
+        <attr name="colorForeground2Inverse" format="color|reference" />
+
+        <!-- Alternative foreground color for inverse theme, with a medium contrast. -->
+        <attr name="colorForeground3Inverse" format="color|reference" />
+
+        <!-- Alternative foreground color for inverse theme, with a low contrast. -->
+        <attr name="colorForeground4Inverse" format="color|reference" />
+
+        <!-- Alternative foreground color for inverse theme, with a very low contrast. -->
+        <attr name="colorForeground5Inverse" format="color|reference" />
+
+        <!-- Text color for hints on edit fields.  -->
+        <attr name="colorTextHint" format="color|reference" />
+
+        <!-- Inverse text color for hints on edit fields. -->
+        <attr name="colorTextHintInverse" format="color|reference" />
+
+        <!-- Style for text blocks with a large font size. -->
+        <attr name="textStyleLarge" format="reference" />
+
+        <!-- Style for text blocks with an extraSmall font size. -->
+        <attr name="textStyleExtraSmall" format="reference" />
+
+    </declare-styleable>
+
+    <attr name="typeFace">
+        <enum name="Light" value="0" />
+        <enum name="Regular" value="1" />
+        <enum name="Bold" value="2" />
+    </attr>
+
+    <declare-styleable name="HereButton">
+        <attr name="highlighted" format="boolean" />
+        <attr name="state_highlighted" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TintedTextView">
+        <attr name="leftTint" format="reference|color"/>
+        <attr name="topTint" format="reference|color"/>
+        <attr name="rightTint" format="reference|color"/>
+        <attr name="bottomTint" format="reference|color"/>
+    </declare-styleable>
+</resources>

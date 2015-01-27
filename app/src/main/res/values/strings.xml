@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CrowdScout Prototype</string>
+    <string name="browse_locations">Browse Locations</string>
+    <string name="location_details">Location Details</string>
+    <string name="venue_details">Venue Details</string>
+
+    <string name="a_to_z">A-Z</string>
+    <string name="z_to_a">Z-A</string>
+    <string name="save">save</string>
+    <string name="unsave">unsave</string>
+    <string name="add_a_note">Add a note</string>
+    <string name="loading">Loading...</string>
+    <string name="recent_now">NOW</string>
+    <string name="recent_new">NEW</string>
+    <string name="create">Create</string>
+
+    <!-- Default collection imags -->
+    <string-array name="placeholder_images">
+        <item>http://i.imgur.com/prDaaKR.jpg</item>
+        <item>http://i.imgur.com/ly3H5Ce.jpg</item>
+        <item>http://i.imgur.com/epSg1RO.jpg</item>
+        <item>http://i.imgur.com/ExstdZ9.jpg</item>
+    </string-array>
+
+    <!-- Location Strings -->
+    <string name="locations">Locations</string>
+    <string name="my_locations">My Locations</string>
+    <string name="explore_popular_cities">Explore Popular Cities</string>
+    <string name="create_new">Create new</string>
+    <string name="no_photos">no photos</string>
+    <string name="location_details_empty_state_title">No Results Found</string>
+    <string name="location_details_empty_state_message">There doesn\'t appear to be much going on right now, but please check back later!</string>
+
+    <string name="default_location_name">Boston, MA</string>
+    <string name="default_location_category">food</string>
+    <string name="default_location_description">Great places to eat in Boston</string>
+    <string name="default_location_image_url">http://i.imgur.com/ExstdZ9.jpg</string>
+
+    <!-- Collection Strings -->
+    <string name="AND_SUI_Collections_AppName">Collections</string>
+    <string name="collection_dummy_string">This is a dummy string</string>
+    <string name="collections">Collections</string>
+    <string name="collections_add_your_first_place_verbose">Tip: Whenever you see a place you want to keep, long tap on it and save it in one of your collections.</string>
+    <string name="collections_all">all</string>
+    <string name="collections_browse_loading">Loading</string>
+    <string name="collections_by_me">yours</string>
+    <string name="collections_character_left">character left</string>
+    <string name="collections_characters_left">characters left</string>
+    <string name="collections_collected_by_x">Collection by %1$s</string>
+    <string name="collections_collection_name">Name this collection</string>
+    <string name="collections_cover_photo_lowercase">cover photo</string>
+    <string name="collections_create_a_new_collection">Create a new collection.</string>
+    <string name="collections_create_new">Create new</string>
+    <string name="collections_creating_collection">Creating collection</string>
+    <string name="collections_default_error_button_text">OK</string>
+    <string name="collections_default_error_message">It should be OK if you come back a bit later.</string>
+    <string name="collections_default_error_title">Can\'t show collections just now.</string>
+    <string name="collections_default_name">Create your own collections.</string>
+    <string name="collections_delete_dialog_msg">Are you sure? If you want this collection again, you\'ll have to re-create it.</string>
+    <string name="collections_delete_dialog_positive_button">Yes, delete</string>
+    <string name="collections_delete_dialog_title">Delete collection?</string>
+    <string name="collections_delete_this_collection">Delete this collection</string>
+    <string name="collections_deleting_collection">Deleting collection</string>
+    <string name="collections_describe_it">Describe it in your own words.</string>
+    <string name="collections_description">What\'s this collection about?</string>
+    <string name="collections_description_optional">What\'s this collection about? (optional)</string>
+    <string name="collections_details_empty_state_message">Whenever you see a place you like, tap \'Save\' to add it to one of your collections.</string>
+    <string name="collections_details_empty_state_title">Easy pickings</string>
+    <string name="collections_discard_changes">Cancel</string>
+    <string name="collections_edit">Edit</string>
+    <string name="collections_edit_description_dialog_title">Description</string>
+    <string name="collections_empty_subtitle">Collect great places. Shops, parks, petrol stations - endless possibilities.</string>
+    <string name="collections_empty_title">Start collecting</string>
+    <string name="collections_following">following</string>
+    <string name="collections_get_directions">Get directions</string>
+    <string name="collections_go_to_discover">Go to Discover</string>
+    <string name="collections_manage_places">Manage places</string>
+    <string name="collections_name">Collection name</string>
+    <string name="collections_new_collection">New collection</string>
+    <string name="collections_no_collections_found">Didn\'t find any collections.</string>
+    <string name="collections_optional_tag">(optional)</string>
+    <string name="collections_pick_collection_title_editable_name">Save</string>
+    <string name="collections_pick_loading">Getting collections</string>
+    <string name="collections_pick_ok">Done</string>
+    <string name="collections_pick_title">Save %1$s</string>
+    <string name="collections_private_collection">Private collection</string>
+    <string name="collections_publish">Make public</string>
+    <string name="collections_rename_favorite_progress">Working...</string>
+    <string name="collections_rename_favorite_title">Name this place</string>
+    <string name="collections_save_changes">Save</string>
+    <string name="collections_saving_collection">Saving collection...</string>
+    <string name="collections_server_error_message">There was a temporary error and your request couldn\'t be completed. Try it again after 60 seconds.</string>
+    <string name="collections_share">Share</string>
+    <string name="collections_title">Collection title</string>
+    <string name="collections_tooltip_default_created">Collecting is easy - here are some collections to get you started.</string>
+    <string name="collections_tooltip_unsorted_places">We\'ve got your back. All your previously saved places are now in one tidy collection.</string>
+    <string name="collections_unavailable_name_error_message">That name\'s already been taken.</string>
+    <string name="collections_unavailable_name_error_title">Choose a new name</string>
+    <string name="collections_unsaved_changes">Save changes?</string>
+    <string name="collections_unsaved_changes_message">If not, your recent edits won\'t be saved.</string>
+    <string name="collections_waiting_for_collection_manager">Syncing</string>
+    <string name="suite_andr_col_add_your_first_place_header">Easy pickings</string>
+    <string name="suite_andr_col_add_your_first_place_text">Whenever you see a place you like, tap on \'Save\' to add it to one of your collections.</string>
+    <string name="suite_andr_col_collections">Collections</string>
+    <string name="suite_andr_col_count">{x}</string>
+    <string name="suite_andr_col_create_new_collection">Create a new collection</string>
+    <string name="suite_andr_col_creating_collection">Making collection</string>
+    <string name="suite_andr_col_default_error_button_text">OK</string>
+    <string name="suite_andr_col_default_error_message">There was a problem of some sort. Please try again.</string>
+    <string name="suite_andr_col_default_error_title">That didn\'t work...</string>
+    <string name="suite_andr_col_delete_button_text">Delete</string>
+    <string name="suite_andr_col_delete_dialog_msg">If you want it back again, you\'ll have to re-create it from scratch.</string>
+    <string name="suite_andr_col_delete_dialog_title">Delete collection?</string>
+    <string name="suite_andr_col_delete_this_collection">Delete this collection</string>
+    <string name="suite_andr_col_FTU_list_message">Save favourite places old and new in your own collections.</string>
+    <string name="suite_andr_col_FTU_list_title">Finders, keepers</string>
+    <string name="suite_andr_col_header_collection_title">Collection title</string>
+    <string name="suite_andr_col_header_name_this_place">Name this place</string>
+    <string name="suite_andr_col_name">Collection name</string>
+    <string name="suite_andr_col_no_collections_all_button">Create a collection</string>
+    <string name="suite_andr_col_no_collections_yours_header">Like it? Save it.</string>
+    <string name="suite_andr_col_no_collections_yours_text">Collect great places. Shops, parks, petrol stations - endless possibilities.</string>
+    <string name="suite_andr_col_pick_new">New collection</string>
+    <string name="suite_andr_col_pick_ok">Finish</string>
+    <string name="suite_andr_col_pick_title">Save \'%1$s\'</string>
+    <string name="suite_andr_col_sign_in_cancel_button_text">Cancel</string>
+    <string name="suite_andr_col_sign_in_default_button_text">Sign in</string>
+    <string name="suite_andr_col_sign_in_expired_message">For your security we\'ve signed you out of your account. Please sign in to continue.</string>
+    <string name="suite_andr_col_sign_in_expired_title">Signed out</string>
+    <string name="suite_andr_col_sign_in_landing_message">Sign in to see your collections.</string>
+    <string name="suite_andr_col_sign_in_landing_message_collections">Please sign in to see your collections.</string>
+    <string name="suite_andr_col_sign_in_landing_message_place">Please sign in to save a place.</string>
+    <string name="suite_andr_col_sign_in_landing_title">Sign in</string>
+    <string name="suite_andr_col_unavailable_name_error_message">There\'s already a collection with that name.</string>
+    <string name="suite_andr_col_unsaved_changes">You\'ve made changes</string>
+    <string name="suite_andr_col_unsaved_changes_message">Do you want to save them before you go on?</string>
+    <string name="text_no_collections">Collect great places. Shops, parks, petrol stations - endless possibilities.</string>
+
+</resources>

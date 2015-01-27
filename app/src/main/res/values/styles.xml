@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:here="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="buttonTextColor">@drawable/button_text_color</item>
+        <item name="buttonStyle">@style/Button.Light</item>
+        <item name="buttonStyleInverse">@style/Button.Dark</item>
+        <item name="colorText">@drawable/text_color</item>
+        <item name="colorTextInverse">@drawable/text_color_dark</item>
+        <item name="colorTextSubtitle">@color/grey3</item>
+        <item name="colorTextSubtitleInverse">@color/grey3</item>
+        <item name="colorBackground">#FFEDF3F5</item>
+        <item name="colorBackgroundInverse">@color/blue_black</item>
+        <item name="colorBackgroundView">#FFFFFFFF</item>
+        <item name="colorBackgroundViewInverse">#FF273142</item>
+        <item name="colorPrimaryAccent1">@color/light_blue</item>
+        <item name="colorPrimaryAccent2">@color/blue</item>
+        <item name="colorPrimaryAccent1Inverse">@color/light_blue</item>
+        <item name="colorPrimaryAccent2Inverse">@color/blue</item>
+        <item name="colorForeground">@color/blue_black</item>
+        <item name="colorForeground2">@color/grey5</item>
+        <item name="colorForeground3">@color/grey4</item>
+        <item name="colorForeground4">@color/grey3</item>
+        <item name="colorForeground5">@color/grey2</item>
+        <item name="colorForegroundInverse">@color/white</item>
+        <item name="colorForeground2Inverse">@color/grey1</item>
+        <item name="colorForeground3Inverse">@color/grey2</item>
+        <item name="colorForeground4Inverse">@color/grey3</item>
+        <item name="colorForeground5Inverse">@color/grey4</item>
+        <item name="colorTextHint">@color/grey3</item>
+        <item name="colorTextHintInverse">@color/grey3</item>
+        <item name="textStyleLarge">@style/TextStyle.Light.Large</item>
+        <item name="textStyleExtraSmall">@style/TextStyle.Light.ExtraSmall</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:gravity">left|top</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/contentMarginLargeHorizontal</item>
+        <item name="android:layout_marginRight">@dimen/contentMarginLargeHorizontal</item>
+        <item name="android:layout_marginTop">@dimen/contentMarginLargeVertical</item>
+        <item name="android:layout_marginBottom">@dimen/contentMarginLargeVertical</item>
+        <item name="android:linksClickable">false</item>
+        <!--
+        <item name="linkColor">?attr/colorLink</item>
+        -->
+        <item name="typeFace">Light</item>
+    </style>
+
+    <style name="TextStyle.Light" parent="TextStyle">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:textColorHint">?attr/colorTextHint</item>
+        <item name="android:textColor">?attr/colorText</item>
+    </style>
+
+    <style name="TextStyle.Light.ExtraSmall" parent="TextStyle.Light">
+        <item name="android:textSize">@dimen/textSizeExtraSmall</item>
+        <item name="android:lineSpacingExtra">@dimen/textLineSpacingExtraSmall</item>
+    </style>
+
+    <style name="TextStyle.Light.Large" parent="TextStyle.Light">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+        <item name="android:lineSpacingExtra">@dimen/textLineSpacingLarge</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/contentMarginLargeHorizontal</item>
+        <item name="android:layout_marginRight">@dimen/contentMarginLargeHorizontal</item>
+        <item name="android:layout_marginTop">@dimen/contentMarginLargeVertical</item>
+        <item name="android:layout_marginBottom">@dimen/contentMarginLargeVertical</item>
+        <item name="android:paddingLeft">@dimen/contentPaddingLargeHorizontal</item>
+        <item name="android:paddingRight">@dimen/contentPaddingLargeHorizontal</item>
+        <item name="typeFace">Light</item>
+    </style>
+
+    <style name="Button.Light" parent="Button">
+        <item name="android:textColor">@drawable/button_text_color_light</item>
+        <item name="android:background">@drawable/button_background_light</item>
+    </style>
+
+    <style name="Button.Dark" parent="Button">
+        <item name="android:textColor">@drawable/button_text_color_dark</item>
+        <item name="android:background">@drawable/button_background_dark</item>
+    </style>
+
+    <!-- Browse Locations -->
+    <style name="BrowseLocationsGridView">
+        <item name="android:background">@color/blue_black</item>
+        <item name="android:horizontalSpacing">@dimen/coll_grid_view_spacing</item>
+        <item name="android:numColumns">2</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">@dimen/coll_grid_view_spacing</item>
+    </style>
+
+    <style name="BrowseLocationsLabel">
+        <item name="android:textColor">?attr/colorTextInverse</item>
+        <item name="android:textSize">@dimen/browse_locations_label</item>
+    </style>
+
+    <!-- Create Location Button -->
+    <style name="CreateLocationButton">
+        <item name="android:background">@drawable/blue_button_drawable</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">?attr/colorTextInverse</item>
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="BrowseLocationsSortButton">
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableRight">@drawable/bt_arrow_down_image_states</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/colorPrimaryAccent1</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="BrowseLocationsFilterRadioButton">
+        <item name="android:background">@drawable/ri_locations_filter</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">?attr/colorTextInverse</item>
+        <item name="android:textSize">@dimen/browse_locations_filter_by_radio_button</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Browse Locations Grid Item -->
+    <style name="BrowseLocationsGridItemImage">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginBottom">@dimen/browse_locations_grid_item_info_container_height</item>
+    </style>
+
+    <style name="BrowseLocationsGridItemInfoContainer">
+        <item name="android:background">@drawable/location_info_container_background_states</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="BrowseLocationsGridItemNameLabel">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingMultiplier">.9</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/global_background_card</item>
+        <item name="android:textSize">@dimen/browse_locations_grid_item_name_label</item>
+    </style>
+
+    <style name="BrowseLocationsGridItemCategoryLabel">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/browse_locations_grid_item_category_label</item>
+        <item name="android:textSize">@dimen/browse_locations_grid_item_private_label</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:drawableLeft">@drawable/ic_food</item>
+    </style>
+
+    <!-- Location Details -->
+
+    <style name="LocationDetailsList">
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:divider">?attr/colorBackground</item>
+        <item name="android:dividerHeight">@dimen/collection_details_list_divider_height</item>
+    </style>
+
+    <style name="LocationDetailsCoverPhoto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/collection_details_cover_photo_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/location_image_placeholder</item>
+    </style>
+
+    <style name="LocationDetailsCoverPhotoGradient">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/collection_details_cover_photo_gradient_height</item>
+        <item name="android:layout_marginTop">@dimen/collection_details_cover_photo_margin_top</item>
+        <item name="android:background">@drawable/cover_photo_gradient</item>
+    </style>
+
+    <style name="LocationDetailsNameLabel">
+        <item name="android:textColor">?attr/colorTextInverse</item>
+        <item name="android:textSize">@dimen/textSizeHuge</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="LocationDetailsTypeLabel">
+        <item name="android:textColor">@color/colorForeground3</item>
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="LocationDetailsDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/contentMarginLargeHorizontal</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:textColor">?attr/colorTextInverse</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="LocationDetailsTitleStyle">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/contentPaddingLargeHorizontal</item>
+        <item name="android:paddingRight">@dimen/contentPaddingLargeHorizontal</item>
+        <item name="android:paddingTop">@dimen/contentPaddingLargeVertical</item>
+        <item name="android:paddingBottom">@dimen/contentPaddingLargeVertical</item>
+        <item name="android:drawablePadding">@dimen/contentPaddingLargeHorizontal</item>
+        <!--
+        <item name="strikethroughStrokeWidth">1dp</item>
+        <item name="typeFace">Light</item>
+        -->
+    </style>
+
+    <style name="LocationDetailsVenueDistance">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">?attr/colorTextSubtitle</item>
+        <item name="android:textSize">@dimen/textSizeTiny</item>
+    </style>
+
+    <!-- Venue Details -->
+
+    <style name="VenueDetailsGridView">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/venue_details_grid_selector</item>
+    </style>
+
+</resources>

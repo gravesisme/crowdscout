@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/contentMarginLargeVertical"
+    android:layout_marginLeft="@dimen/contentMarginSmallHorizontal"
+    android:layout_marginRight="@dimen/contentMarginSmallHorizontal"
+    android:layout_marginTop="@dimen/contentMarginExtraLargeVertical"
+    android:orientation="horizontal"
+    android:background="@null">
+
+    <RadioButton
+        android:id="@+id/all_filter"
+        style="@style/BrowseLocationsFilterRadioButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="true"
+        android:enabled="true"
+        android:text="@string/collections_all"
+    />
+
+    <RadioButton
+        android:id="@+id/by_me_filter"
+        style="@style/BrowseLocationsFilterRadioButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/contentMarginSmallHorizontal"
+        android:layout_marginRight="@dimen/contentMarginSmallHorizontal"
+        android:layout_weight="1"
+        android:checked="false"
+        android:enabled="false"
+        android:text="@string/collections_by_me"
+        android:textColor="@color/grey3"
+    />
+
+    <RadioButton
+        android:id="@+id/following_filter"
+        style="@style/BrowseLocationsFilterRadioButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="false"
+        android:enabled="false"
+        android:text="@string/collections_following"
+        android:textColor="@color/grey3"
+    />
+
+</LinearLayout>

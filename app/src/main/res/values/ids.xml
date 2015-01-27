@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Forward reference of a component id to allow alignment of a component with another before it is declared -->
+    <item type="id" name="location_details_list_item_key_position"/>
+    <item type="id" name="location_details_list_item_key_parent"/>
+
+</resources>

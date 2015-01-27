@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Boston, MA",
+        "category": "food",
+        "description": "Great places to eat in Boston. Go Patriots!",
+        "imageUrl": "http://i.imgur.com/prDaaKR.jpg"
+    },
+    {
+        "name": "New York, NY",
+        "category": "drinks",
+        "description": "Fun places to grab a drink in the city that never sleeps!",
+        "imageUrl": "http://i.imgur.com/ly3H5Ce.jpg"
+    },
+    {
+        "name": "Las Vegas, NV",
+        "category": "casino",
+        "description": "Welcome to Sin City!",
+        "imageUrl": "http://i.imgur.com/epSg1RO.jpg"
+    },
+    {
+        "name": "Miami, FL",
+        "category": "outdoors",
+        "description": "Let's go to the beach!",
+        "imageUrl": "http://i.imgur.com/ExstdZ9.jpg"
+    },
+    {
+        "name": "Chicago, IL",
+        "category": "sights",
+        "description": "From the towering skyscrapers of the Loop to the city's colorful mosaic of unique neighborhoods, Chicago buzzes with energy and excitement.",
+        "imageUrl": "http://i.imgur.com/t2rEAtP.jpg"
+    },
+    {
+        "name": "Baltimore, MD",
+        "category": "drinks",
+        "description": "Baltimore is the largest city in the State of Maryland, the largest independent city in the United States, and the 26th-most populous city in the country.",
+        "imageUrl": "http://i.imgur.com/k4Mmy2q.jpg"
+    },
+    {
+        "name": "San Francisco, CA",
+        "category": "food",
+        "description": "Even entrepreneurs have to eat!",
+        "imageUrl": "http://i.imgur.com/z0pNokd.jpg"
+    },
+    {
+        "name": "Washington, DC",
+        "category": "sights",
+        "description": "The Capital of the United States of America",
+        "imageUrl": "http://i.imgur.com/FfN3mru.jpg"
+    },
+    {
+        "name": "Dallas, TX",
+        "category": "food",
+        "description": "Everything is bigger in Texas! Including the portions!",
+        "imageUrl": "http://i.imgur.com/6aaA4h9.jpg"
+    },
+    {
+        "name": "London, UK",
+        "category": "sights",
+        "description": "In London, history collides with art, fashion, food, and good British ale.",
+        "imageUrl": "http://i.imgur.com/ubWDjYL.jpg"
+    },
+    {
+        "name": "Moscow",
+        "category": "drinks",
+        "description": "During any season, any hour of day, Moscow thrills visitors with its artistry, history and vodka.",
+        "imageUrl": "http://i.imgur.com/VDOlh0P.jpg"
+    },
+    {
+        "name": "Tokyo",
+        "category": "arts",
+        "description": "Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its visitors.",
+        "imageUrl": "http://i.imgur.com/2Qra4o2.jpg"
+    },
+    {
+        "name": "Barcelona, Spain",
+        "category": "drinks",
+        "description": "Barcelona is an enchanting seaside city with boundless culture, fabled architecture, and a world-class drinking and dining scene.",
+        "imageUrl": "http://i.imgur.com/XAmi6LR.jpg"
+    }
+]

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_black">#FF010B1E</color>
+    <color name="grey5">#FF273142</color>
+    <color name="grey4">#FF4D5766</color>
+    <color name="grey3">#FF98A2AE</color>
+    <color name="grey2">#FFBEC8D2</color>
+    <color name="grey1">#FFEDF3F5</color>
+    <color name="light_blue">#FF00C9FF</color>
+    <color name="blue">#FF124191</color>
+    <color name="red">#FFFF3154</color>
+    <color name="yellow">#FFFFFB00</color>
+    <color name="green">#FF5CEA00</color>
+
+    <color name="global_background_card">#FF24303C</color>
+
+    <color name="grid_state_pressed">#BB7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+
+    <color name="colorForegroundInverseSubtitle">#FF98A2AE</color>
+
+    <color name="colorPrimaryAccent1">@color/light_blue</color>
+    <color name="colorPrimaryAccent2">@color/blue</color>
+
+    <color name="colorPrimaryAccent1Inverse">@color/light_blue</color>
+    <color name="colorPrimaryAccent2Inverse">@color/blue</color>
+
+    <color name="colorSecondaryAccent1">@color/grey3</color>
+    <color name="colorSecondaryAccent2">@color/grey3</color>
+    <color name="colorSecondaryAccent3">@color/red</color>
+
+    <color name="colorSecondaryAccent1Inverse">@color/green</color>
+    <color name="colorSecondaryAccent2Inverse">@color/yellow</color>
+    <color name="colorSecondaryAccent3Inverse">@color/red</color>
+
+    <color name="colorForeground">@color/blue_black</color>
+    <color name="colorForeground2">@color/grey5</color>
+    <color name="colorForeground3">@color/grey4</color>
+    <color name="colorForeground4">@color/grey3</color>
+    <color name="colorForeground5">@color/grey2</color>
+    <color name="colorForegroundInverse">@color/white</color>
+    <color name="colorForeground2Inverse">@color/grey1</color>
+    <color name="colorForeground3Inverse">@color/grey2</color>
+    <color name="colorForeground4Inverse">@color/grey3</color>
+    <color name="colorForeground5Inverse">@color/grey4</color>
+
+    <color name="colorDivider">#FFBEC8D2</color>
+    <color name="colorDividerInverse">#FF273142</color>
+
+    <color name="disabled_button_text_color">#ff808080</color>
+
+    <color name="browse_collections_grid_item_info_background">#D0D2D3</color>
+    <color name="browse_locations_grid_item_category_label">#69696b</color>
+
+    <color name="collected_place_name_label">#010A1D</color>
+    <color name="collected_place_category_label">#9EA2B2</color>
+    <color name="collected_place_description_label">#2B3140</color>
+
+    <color name="location_button_accent">#00BBDD</color>
+    <color name="collection_details_type_color">#d7d7d7</color>
+    <color name="collection_details_edit_button_enabled">#CC010B1E</color>
+
+    <color name="collection_tooltip">#F200C9FF</color>
+
+    <!-- 70% ?attr/colorForeground5 -->
+    <color name="collection_details_list_item_selector">#B3BEC8D2</color>
+</resources>

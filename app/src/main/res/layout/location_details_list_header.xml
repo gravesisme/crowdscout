@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+        <ImageView
+            style="@style/LocationDetailsCoverPhoto"
+            android:id="@+id/cover_photo"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+        />
+
+        <View
+            style="@style/LocationDetailsCoverPhotoGradient"
+            android:id="@+id/cover_photo_gradient"
+            android:layout_alignParentTop="true"
+        />
+
+        <TextView
+            style="@style/LocationDetailsNameLabel"
+            android:id="@+id/location_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+        />
+
+        <TextView
+            style="@style/LocationDetailsTypeLabel"
+            android:id="@+id/location_category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/location_name_label"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="4dp"
+            android:clickable="false"
+            android:text=""
+            android:background="@drawable/blue_outline_bg"
+        />
+
+        <TextView
+            style="@style/LocationDetailsDescription"
+            android:id="@+id/location_description_label"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/collection_details_view_pager_height"
+            android:layout_below="@id/location_category_label"
+            android:layout_margin="@dimen/contentMarginMediumHorizontal"
+            android:text=""
+            android:background="@null"
+        />
+
+        <com.dpg.crowdscout.widgets.TitleView
+            style="@style/LocationDetailsTitleStyle"
+            android:id="@+id/num_items_label"
+            android:background="?attr/colorBackground"
+            android:layout_below="@id/cover_photo"
+            android:text=""
+            android:visibility="gone"
+            android:clickable="false"
+        />
+
+        <TextView
+            android:id="@+id/empty_view_hint_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cover_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/contentMarginLargeHorizontal"
+            android:layout_marginRight="@dimen/contentMarginLargeHorizontal"
+            android:text="@string/location_details_empty_state_message"
+            android:textColor="?attr/colorForeground"
+            android:textSize="@dimen/textSizeLarge"
+            android:gravity="center"
+            android:paddingTop="@dimen/collection_details_empty_view_margin_top"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:visibility="gone"
+        />
+
+    </RelativeLayout>
+
+</merge>

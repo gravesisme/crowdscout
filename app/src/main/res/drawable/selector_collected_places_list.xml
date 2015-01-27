@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Attributes don't work in drawables. This is the same as 70% ?attr/colorForeground5 -->
+    <item android:state_pressed="true" android:drawable="@color/collection_details_list_item_selector" />
+    <item android:state_selected="true" android:state_pressed="false" android:drawable="@android:color/transparent"/>
+    <item android:drawable="@android:color/transparent" />
+</selector>

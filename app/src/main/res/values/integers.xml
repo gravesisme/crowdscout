@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <integer name="location_name_max_length">45</integer>
+    <integer name="location_description_max_length">250</integer>
+    <integer name="edit_location_description_dialog_num_lines">5</integer>
+    <integer name="remove_venue_from_location_animation_duration">300</integer>
+
+</resources>

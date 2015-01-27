@@ -1,0 +1,115 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">8dp</dimen>
+
+    <dimen name="textSizeHuge">24dp</dimen>
+    <dimen name="textSizeLarge">18dp</dimen>
+    <dimen name="textSizeMedium">16dp</dimen>
+    <dimen name="textSizeSmall">15dp</dimen>
+    <dimen name="textSizeExtraSmall">14dp</dimen>
+    <dimen name="textSizeTiny">12dp</dimen>
+
+    <dimen name="textSizeHugeInCar">35dp</dimen>
+    <dimen name="textSizeLargeInCar">28dp</dimen>
+    <dimen name="textSizeMediumInCar">25dp</dimen>
+    <dimen name="textSizeButtonInCar">21dp</dimen>
+    <dimen name="textSizeSmallInCar">19dp</dimen>
+    <dimen name="textSizeExtraSmallInCar">18dp</dimen>
+    <dimen name="textSizeTinyInCar">16dp</dimen>
+
+    <dimen name="textLineSpacingHuge">0dp</dimen>
+    <dimen name="textLineSpacingLarge">0dp</dimen>
+    <dimen name="textLineSpacingMedium">0dp</dimen>
+    <dimen name="textLineSpacingSmall">0dp</dimen>
+    <dimen name="textLineSpacingExtraSmall">1dp</dimen>
+    <dimen name="textLineSpacingTiny">0dp</dimen>
+
+    <dimen name="textLineSpacingHugeInCar">0dp</dimen>
+    <dimen name="textLineSpacingLargeInCar">0dp</dimen>
+    <dimen name="textLineSpacingMediumInCar">0dp</dimen>
+    <dimen name="textLineSpacingSmallInCar">0dp</dimen>
+    <dimen name="textLineSpacingExtraSmallInCar">0dp</dimen>
+    <dimen name="textLineSpacingTinyInCar">0dp</dimen>
+
+    <dimen name="contentMarginSmallHorizontal">4dp</dimen>
+    <dimen name="contentMarginSmallVertical">4dp</dimen>
+    <dimen name="contentMarginMediumHorizontal">8dp</dimen>
+    <dimen name="contentMarginMediumVertical">8dp</dimen>
+    <dimen name="contentMarginLargeHorizontal">12dp</dimen>
+    <dimen name="contentMarginLargeVertical">12dp</dimen>
+    <dimen name="contentMarginExtraLargeHorizontal">16dp</dimen>
+    <dimen name="contentMarginExtraLargeVertical">16dp</dimen>
+
+    <dimen name="contentPaddingSmallHorizontal">4dp</dimen>
+    <dimen name="contentPaddingSmallVertical">4dp</dimen>
+    <dimen name="contentPaddingMediumHorizontal">8dp</dimen>
+    <dimen name="contentPaddingMediumVertical">8dp</dimen>
+    <dimen name="contentPaddingLargeHorizontal">12dp</dimen>
+    <dimen name="contentPaddingLargeVertical">12dp</dimen>
+    <dimen name="contentPaddingExtraLargeHorizontal">16dp</dimen>
+    <dimen name="contentPaddingExtraLargeVertical">16dp</dimen>
+    <dimen name="contentDrawablePadding">8dp</dimen>
+
+    <dimen name="animationOffsetDistanceVerySmall">1dp</dimen>
+    <dimen name="animationOffsetDistanceSmall">2dp</dimen>
+    <dimen name="animationOffsetDistanceMedium">3dp</dimen>
+    <dimen name="animationOffsetDistanceLarge">5dp</dimen>
+    <dimen name="animationOffsetDistanceVeryLarge">8dp</dimen>
+
+    <dimen name="text_icon_drawable_text_size">16sp</dimen>
+    <dimen name="text_icon_drawable_text_padding">8dp</dimen>
+    <dimen name="text_icon_drawable_border_padding">5dp</dimen>
+
+    <!-- Locations -->
+    <dimen name="browse_locations_label">20sp</dimen>
+    <dimen name="browse_locations_filter_by_radio_button">14sp</dimen>
+    <dimen name="browse_locations_grid_item_info_container_height">75dp</dimen>
+    <dimen name="browse_locations_grid_item_name_label">16sp</dimen>
+    <dimen name="browse_locations_grid_item_private_label">13sp</dimen>
+
+    <!-- Collections -->
+    <dimen name="coll_browse_layout_padding_left">5dp</dimen>
+    <dimen name="coll_browse_layout_padding_right">5dp</dimen>
+    <dimen name="coll_item_padding_top">10dp</dimen>
+    <dimen name="coll_item_padding_bottom">5dp</dimen>
+    <dimen name="coll_list_item_padding_left">5dp</dimen>
+    <dimen name="coll_list_item_padding_right">5dp</dimen>
+    <dimen name="coll_grid_view_spacing">10dp</dimen>
+    <dimen name="browse_collections_header_create_button_size">36dp</dimen>
+    <dimen name="browse_collections_header_create_button_padding">6dp</dimen>
+    <dimen name="browse_collections_empty_view_margin_top">10dp</dimen>
+    <dimen name="browse_locations_grid_margin_top_under_filter_container">10dp</dimen>
+    <dimen name="browse_locations_grid_margin_top_under_label">20dp</dimen>
+    <dimen name="browse_grid_margin_top_under_label">24dp</dimen>
+    <dimen name="browse_collections_by_place_label_offset">30dp</dimen>
+    <dimen name="simple_browse_collections_by_place_label_offset">28dp</dimen>
+    <dimen name="simple_browse_collections_num_places_label_drawable_padding">5dp</dimen>
+    <dimen name="simple_browse_collections_num_places_label_margin_right">20dp</dimen>
+    <dimen name="venue_thumbnail_image_width">89dp</dimen>
+    <dimen name="collected_place_with_description_thumbnail_height">138dp</dimen>
+    <dimen name="collected_place_multiline_extra">24dp</dimen>
+    <dimen name="collected_place_thumbnail_max_height">162dp</dimen>
+    <dimen name="collection_details_drawer_header_height">100dp</dimen>
+    <dimen name="collection_details_drawer_header_icon_padding">3dp</dimen>
+    <dimen name="collection_details_list_divider_height">4dp</dimen>
+    <dimen name="collection_details_type_label_height">16dp</dimen>
+    <dimen name="collection_details_private_collection_icon_height">18dp</dimen>
+    <dimen name="collection_details_no_items_label_top_margin">10dp</dimen>
+    <dimen name="collection_details_action_button_horizontal_offset">50dp</dimen>
+    <dimen name="collection_details_cover_photo_height">250dp</dimen>
+    <dimen name="collection_details_cover_photo_gradient_height">250dp</dimen>
+    <dimen name="collection_details_cover_photo_margin_top">0dp</dimen>
+    <dimen name="collection_details_edit_input_dialog_padding">10dp</dimen>
+    <dimen name="collection_details_edit_button_width">35dp</dimen>
+    <dimen name="collection_details_edit_button_height">35dp</dimen>
+    <dimen name="collection_details_edit_button_padding">2dp</dimen>
+    <dimen name="collection_details_view_pager_height">75dp</dimen>
+    <dimen name="collection_details_empty_view_margin_top">36dp</dimen>
+    <dimen name="collected_place_name_margin_right">40dp</dimen>
+    <dimen name="venue_category_icon_size">20dp</dimen>
+
+</resources>

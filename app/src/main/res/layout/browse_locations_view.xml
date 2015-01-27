@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/page_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Header Title -->
+
+        <TextView
+            android:id="@+id/locations_label"
+            style="@style/BrowseLocationsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/contentMarginSmallHorizontal"
+            android:layout_marginRight="@dimen/contentMarginSmallHorizontal"
+            android:layout_marginTop="@dimen/contentMarginExtraLargeVertical"
+            android:gravity="center_horizontal"
+            android:text="@string/explore_popular_cities"
+            android:background="@null"
+        />
+
+        <!-- Header Create Button -->
+
+        <TextView
+            android:id="@+id/create_new_location_button"
+            style="@style/CreateLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/locations_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/contentMarginMediumHorizontal"
+            android:text="@string/create_new"
+            android:visibility="gone"
+        />
+
+        <!-- Sort Button -->
+
+        <TextView
+            android:id="@+id/order_by_button"
+            style="@style/BrowseLocationsSortButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/create_new_location_button"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/contentMarginSmallHorizontal"
+            android:text="@string/a_to_z"
+        />
+
+        <!-- Filter Container -->
+
+        <include
+            layout="@layout/browse_locations_filter_container"
+            android:id="@+id/filter_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/locations_label"
+            android:layout_marginLeft="@dimen/contentMarginSmallHorizontal"
+            android:layout_marginTop="@dimen/contentMarginExtraLargeVertical"
+            android:layout_marginRight="@dimen/contentMarginSmallHorizontal"
+            android:layout_marginBottom="@dimen/contentMarginLargeVertical"
+        />
+
+        <!-- GridView -->
+
+        <GridView
+            android:id="@+id/browse_locations_grid"
+            style="@style/BrowseLocationsGridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/filter_container"
+            android:layout_marginTop="@dimen/contentMarginLargeVertical"
+            android:paddingLeft="@dimen/contentPaddingSmallHorizontal"
+            android:paddingRight="@dimen/contentPaddingSmallHorizontal"
+            android:background="@null"
+        />
+
+        <!-- Empty View -->
+
+        <include
+            android:id="@+id/browse_locations_grid_empty"
+            layout="@layout/browse_locations_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/browse_locations_grid"
+        />
+
+    </RelativeLayout>
+
+</FrameLayout>
