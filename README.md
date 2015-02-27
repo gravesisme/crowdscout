@@ -25,3 +25,6 @@ Enjoy!
 ### Most Recent Media for a Venue
 ![Recent Venue Media](https://raw.githubusercontent.com/gravesisme/crowdscout/master/screenshots/03-VenueDetails.png "Recent Venue Media")
 
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-8668652-4/crowdscout/readme?pixel)](https://github.com/igrigorik/ga-beacon)
